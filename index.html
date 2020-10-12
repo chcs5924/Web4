@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Kelompok 2</h2> 
+
+<p>Nama Kelompok:</p>
+
+<p id="demo"></p>
+
+<script>
+var person, text; 
+person = ["Inggrit Pondaag", "Christian Sunkudon", "Girvando Patras", "Theo Tarumingkeng"];
+
+text = "<ul>";
+person.forEach(myFunction);
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+}
+</script>
+
+</body>
+</html>
