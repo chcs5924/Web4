@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 800px;
+}
+body {
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size:center;
+    font-weight: bold;
+    }
+
+.MEMBER .M1 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
+    height: auto;
+    justify-content: center;
+}
