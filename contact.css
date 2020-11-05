@@ -1,0 +1,106 @@
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 800px;
+}
+body {
+    background-image: url("Gambar/Background.jpg");
+    background-color: whitesmoke;
+    background-position: center;
+    background-repeat: repeat;
+    background-size:center;
+    font-family: sans-serif; 
+}
+.header {margin: 20px; 
+    color: white;
+    background: green; 
+    height: 70px;}
+
+.logo {float: left;}
+
+.navbar {float: right;}
+
+.navbar ul {list-style: none; 
+       padding-top: 10px;}
+.navbar ul li {display: inline; 
+          margin: 10px;
+          text-decoration: none; 
+          color: white;}
+.navbar ul li a {text-decoration: none;
+            color: white;}
+.navbar ul li a:hover {color: black;}
+
+.WEB {
+    font-family: 'Times New Roman';font-size: xx-large;color: yellow;
+    text-align: center;}
+
+.gambar {width: 90%; 
+    display: flex; 
+    flex-direction: row; 
+    margin: auto;
+    justify-content: center;}
+
+.M1 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin : 0 auto;
+    max-resolution: top 100px;
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.p1 {
+    color: yellow;
+    text-align: center;
+    font-family:Impact;font-size: large;color:rgb(250, 236, 236);
+}
+.p2 {
+    color:yellow;
+    text-align: center;
+    font-family:Impact;font-size: large;color:rgb(250, 236, 236);
+}
+.p3 {
+    color:yellow;
+    text-align: center;
+    font-family:Impact;font-size: large;color:rgb(250, 236, 236);
+}
+.p4 {
+    color: yellow;
+    text-align: center;
+    font-family:Impact;font-size: large;color:rgb(250, 236, 236);
+}
+.footer {
+    color: rgb(255, 255, 255);
+    margin: 70px;
+    text-align: center;
+}
+
+.footer .judul {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.footer .mk {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+a:link {
+    color: orangered;
+}
+
+a:visited {
+    color:wheat;
+}
